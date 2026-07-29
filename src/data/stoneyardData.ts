@@ -30,7 +30,7 @@ export interface Experience {
 export interface GalleryItem {
   id: string;
   title: string;
-  category: 'property' | 'rooms' | 'dining' | 'experiences' | 'naran' | 'evenings';
+  category: 'property' | 'rooms' | 'dining' | 'experiences' | 'naran' | 'evenings' | 'Property' | 'Rooms' | 'Dining' | 'Experiences' | 'Naran' | 'Evenings';
   src: string;
   type: 'image' | 'video';
   aspectRatio: 'square' | 'portrait' | 'landscape' | 'wide';
